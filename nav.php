@@ -39,7 +39,7 @@ $page = basename($current_file, '.'.pathinfo($current_file)['extension']);
 				if($page == "login") {
 					echo '<li class="active"><a href="login.php">LOGIN</a></li>';
 				} else {
-					echo '<li><a href="login.php">LOGIN</a></li>';
+					echo '<li><a href="login.php?registering=false">LOGIN</a></li>';
 				}
 			} else {
 				echo '<li><a href="logout.php">LOGOUT</a></li>';
