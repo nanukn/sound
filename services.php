@@ -123,7 +123,42 @@
 		</div><!-- container -->
 	</div><!-- DG -->
 
-
+	<div id="blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-login">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<a href="#" id="login-form-link">Rental</a>
+								</div>
+								<div class="col-xs-3">
+									<a  href="#" id="register-form-link">A-RIG</a>
+								</div>
+								<div class="col-xs-3">
+									<a  href="#" id="register-form-link">B-RIG</a>
+								</div>
+								<div class="col-xs-3">
+									<a  href="#" id="register-form-link">C-RIG</a>
+								</div>
+							</div>
+							<!--<hr>-->
+						</div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-lg-12">
+									<?php
+										include 'requestform.inc.php';
+									?>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 	<div id="blue">
 		<div class="container">
